@@ -17,7 +17,7 @@ Add to packages.json: "react-native-background-upload": "github:adrienfloor/reac
 ##### Android
 
 ###### ProGuard
-Add this to your ProGuard configuration:
+Add this to your ProGuard configuration `(proguard-rules.pro)` :
 
 `-keep class net.gotev.uploadservice.** { *; }`
 
